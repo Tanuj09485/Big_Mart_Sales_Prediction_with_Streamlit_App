@@ -4,8 +4,8 @@ import numpy as np
 import joblib
 
 # Load the trained model and feature names
-model = joblib.load("Model\model.pkl")
-expected_features = joblib.load("Model\expected_features.pkl")
+model = joblib.load("Model/model.pkl")
+expected_features = joblib.load("Model/expected_features.pkl")
 
 # Function for preprocessing
 def pre_processing(df):
